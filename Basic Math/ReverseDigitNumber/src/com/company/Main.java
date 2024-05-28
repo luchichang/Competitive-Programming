@@ -50,6 +50,7 @@ public class Main {
                     continue;
 
                 }
+
                 rNum =  rNum*10 +  digitVal;
 
             }
