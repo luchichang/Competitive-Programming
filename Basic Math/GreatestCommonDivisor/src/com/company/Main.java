@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+
        System.out.println(gcdOptimal(100,12));
 
     }
@@ -62,4 +63,20 @@ public class Main {
         if(a==0)return b;
         else return a;
     }
+
+//    Optimizing the eucledians GCD
+    public static int optimizedEucledian(int num1 , int num2){
+        if(num1==0)return num2;
+        if(num2==0)return num1;
+
+        while(num1>0&&num2>0){
+
+           if(num1 >num2){
+
+           }
+       }
+        return 0;
+    }
+
+
 }

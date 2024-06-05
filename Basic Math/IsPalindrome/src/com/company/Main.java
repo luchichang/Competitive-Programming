@@ -7,6 +7,12 @@ public class Main {
         System.out.println(isPalindrome(121) );
     }
 
+
+/*
+*     Complexity Analysis
+* TIME  COMPLEXITY : O(logn)
+* SPACE COMPLEXITY : O(1)
+*/
     public static String isPalindrome(int num) {
         if (num <= 9 && num >= 0) return num + " is Palindrome.";
 
